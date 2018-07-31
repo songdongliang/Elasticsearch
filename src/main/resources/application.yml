@@ -1,0 +1,8 @@
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: songdongliang
+      cluster-nodes: 118.24.125.200:9300
+      repositories:
+        enabled: true
