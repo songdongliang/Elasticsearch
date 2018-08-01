@@ -22,7 +22,7 @@ public class UserService {
      * @return
      */
     public User getUserById(Long id) {
-        return repository.findById(id).orElse(null);
+        return repository.findById(id).orElse(new User());
     }
 
     /**
