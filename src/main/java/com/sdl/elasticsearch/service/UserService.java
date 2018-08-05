@@ -2,6 +2,7 @@ package com.sdl.elasticsearch.service;
 
 import com.sdl.elasticsearch.entity.User;
 import com.sdl.elasticsearch.repository.UserRepository;
+import org.elasticsearch.client.transport.TransportClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,9 @@ public class UserService {
 
     @Autowired
     private UserRepository repository;
+
+//    @Autowired
+//    private TransportClient transportClient ;
 
     /**
      * 根据用户id查询用户
